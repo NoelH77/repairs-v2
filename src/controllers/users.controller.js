@@ -130,3 +130,4 @@ exports.deleteUser = catchAsync(async (req, res, next) => {
     message: 'delete user',
   });
 });
+

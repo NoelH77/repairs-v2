@@ -13,7 +13,7 @@ const validFields = (req, res, next) => {
 
 exports.createUserValidation = [
   body('name').notEmpty().withMessage('name can`t be empty'),
-  body('email').notEmpty().withMessage(' email can`t be empty'),
+  body('email').notEmpty().withMessage('email can`t be empty'),
   body('password')
     .notEmpty()
     .withMessage('password can`t be empty')
